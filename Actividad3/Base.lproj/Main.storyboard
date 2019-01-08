@@ -36,16 +36,20 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Calcular Propina 10%"/>
                                 <connections>
-                                    <action selector="calcularDiez:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CWt-ev-wbK"/>
+                                    <action selector="calcularDiez:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nCv-i9-B0J"/>
+                                    <action selector="calcularPropina:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h7l-G2-UMj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tvA-Z2-3o6">
                                 <rect key="frame" x="32" y="218" width="144" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Calcular propina 15%"/>
+                                <connections>
+                                    <action selector="calcularQuince:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cn0-qn-BHm"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1e-r3-t4m">
-                                <rect key="frame" x="31" y="298" width="116" height="15"/>
+                                <rect key="frame" x="31" y="298" width="328" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -55,6 +59,9 @@
                                 <rect key="frame" x="32" y="256" width="146" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Calcular propina 20%"/>
+                                <connections>
+                                    <action selector="calcularVeinte:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xrP-Hx-MmK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
